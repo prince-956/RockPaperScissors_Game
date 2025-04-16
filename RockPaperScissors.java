@@ -67,24 +67,38 @@ class RockPaperScissors {
 
                     if (userChoice == computerChoice) {
                         System.out.println("\nIt's a tie!");
+                        System.out.println("Score - [" + name + "] : [" + userScore + "]");
+                        System.out.println("Score - [Computer] : [" + computerScore + "]");
                     }
                     else if (userChoice == 1 && computerChoice == 3) {
                         userScore++;
+                        System.out.println("Score - [" + name + "] : [" + userScore + "]");
+                        System.out.println("Score - [Computer] : [" + computerScore + "]");
                     }
                     else if (userChoice == 2 && computerChoice == 1) {
                         userScore++;
+                        System.out.println("Score - [" + name + "] : [" + userScore + "]");
+                        System.out.println("Score - [Computer] : [" + computerScore + "]");
                     }
                     else if (userChoice == 3 && computerChoice == 2) {
                         userScore++;
+                        System.out.println("Score - [" + name + "] : [" + userScore + "]");
+                        System.out.println("Score - [Computer] : [" + computerScore + "]");
                     }
                     else if (userChoice == 3 && computerChoice == 1) {
                         computerScore++;
+                        System.out.println("Score - [" + name + "] : [" + userScore + "]");
+                        System.out.println("Score - [Computer] : [" + computerScore + "]");
                     }
                     else if (userChoice == 1 && computerChoice == 2) {
                         computerScore++;
+                        System.out.println("Score - [" + name + "] : [" + userScore + "]");
+                        System.out.println("Score - [Computer] : [" + computerScore + "]");
                     }
                     else if (userChoice == 2 && computerChoice == 3) {
                         computerScore++;
+                        System.out.println("Score - [" + name + "] : [" + userScore + "]");
+                        System.out.println("Score - [Computer] : [" + computerScore + "]");
                     }
                 }
             } while (userChoice!=4);
